@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa; /* Cor de fundo para o corpo da página */
+    padding-top: 20px; /* Espaçamento no topo */
+}
+
+.container {
+    background-color: #ffffff; /* Cor de fundo do container */
+    padding: 20px; /* Espaçamento interno do container */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px; /* Espaçamento superior do container */
+}
+
+.mt-5 {
+    margin-top: 30px; /* Espaçamento superior maior */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Cor de fundo do botão primário */
+    border-color: #007bff; /* Cor da borda do botão primário */
+}
+
+.btn-primary:hover {
+    background-color: #0069d9; /* Cor de fundo do botão primário ao passar o mouse */
+    border-color: #0062cc; /* Cor da borda do botão primário ao passar o mouse */
+}
+
+.table {
+    margin-top: 20px; /* Espaçamento superior da tabela */
+}

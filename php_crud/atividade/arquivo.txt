@@ -1,0 +1,11 @@
+create table campos(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    titulo varchar(100) not null,
+    descricao text,
+    status enum('Pendente', 'Em processo', 'Concluido') DEFAULT 'Pendente',
+    dataCriacao date not null,
+    dataConclusao date,
+    responsavel varchar(100),
+    cargo varchar(25),
+    email varchar(35)
+    );
